@@ -1,0 +1,161 @@
+2025-09-26 08:23:28,548 - Knowledge - INFO - Redis support added with prefix knowledge:b1067xv:
+2025-09-26 08:23:28,679 - Knowledge - INFO - load persisted knowledge: begin
+2025-09-26 08:23:28,684 - Knowledge - INFO - load persisted knowledge: end
+2025-09-26 08:23:28,684 - Knowledge - INFO - load persisted docinfo: begin
+2025-09-26 08:23:28,686 - Knowledge - INFO - load persisted docinfo: end
+2025-09-26 08:23:28,733 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-09-26 08:23:28,734 - Knowledge - INFO - knowledge worker kw1 start
+2025-09-26 08:23:28,735 - Knowledge - INFO - worker kw1 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh from ingest queue
+2025-09-26 08:23:28,737 - Knowledge - INFO - worker kw2 created with dedicated MongoDB connection (total: 2)
+2025-09-26 08:23:28,737 - Knowledge - INFO - knowledge worker kw2 start
+2025-09-26 08:23:28,738 - Knowledge - INFO - worker kw2 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh from ingest queue
+2025-09-26 08:23:28,739 - Knowledge - INFO - worker kw3 created with dedicated MongoDB connection (total: 3)
+2025-09-26 08:23:28,739 - Knowledge - INFO - knowledge worker kw3 start
+2025-09-26 08:23:28,740 - Knowledge - INFO - worker kw4 created with dedicated MongoDB connection (total: 4)
+2025-09-26 08:23:28,741 - Knowledge - INFO - knowledge worker kw4 start
+2025-09-26 08:23:28,742 - Knowledge - INFO - worker kw5 created with dedicated MongoDB connection (total: 5)
+2025-09-26 08:23:28,742 - Knowledge - INFO - knowledge worker kw5 start
+2025-09-26 08:23:28,743 - Knowledge - INFO - worker kw6 created with dedicated MongoDB connection (total: 6)
+2025-09-26 08:23:28,743 - Knowledge - INFO - knowledge worker kw6 start
+2025-09-26 08:23:28,744 - Knowledge - INFO - worker kw6 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh from ingest queue
+2025-09-26 08:23:28,746 - Knowledge - INFO - worker kw7 created with dedicated MongoDB connection (total: 7)
+2025-09-26 08:23:28,746 - Knowledge - INFO - knowledge worker kw7 start
+2025-09-26 08:23:28,748 - Knowledge - INFO - worker kw8 created with dedicated MongoDB connection (total: 8)
+2025-09-26 08:23:28,748 - Knowledge - INFO - knowledge worker kw8 start
+2025-09-26 08:23:28,749 - Knowledge - INFO - worker kw9 created with dedicated MongoDB connection (total: 9)
+2025-09-26 08:23:28,749 - Knowledge - INFO - knowledge worker kw9 start
+2025-09-26 08:23:28,767 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:28,770 - Knowledge - INFO - worker kw8 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh from ingest queue
+2025-09-26 08:23:28,772 - Knowledge - INFO - worker kw5 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh from ingest queue
+2025-09-26 08:23:28,772 - Knowledge - INFO - worker kw9 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl from ingest queue
+2025-09-26 08:23:28,773 - Knowledge - INFO - worker kw4 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl from ingest queue
+2025-09-26 08:23:28,831 - Knowledge - INFO - worker kw7 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl from ingest queue
+2025-09-26 08:23:28,832 - Knowledge - INFO - worker kw3 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md from ingest queue
+2025-09-26 08:23:28,835 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,835 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,835 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:28,846 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:28,848 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:28,934 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:28,935 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:28,936 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:28,942 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:28,942 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:28,945 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:28,970 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,970 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,970 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:28,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,971 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,971 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:28,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,971 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,971 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:28,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,972 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,972 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:28,972 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,972 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,972 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:28,972 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,972 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,972 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:28,973 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,973 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,973 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:28,973 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:28,973 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:28,973 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:29,076 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh to ingest queue
+2025-09-26 08:23:29,664 - Knowledge - INFO - worker kw1 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh from ingest queue
+2025-09-26 08:23:29,665 - Knowledge - INFO - Thread kw1 - File ce_addDir.sh - Remaining files in queue: 0
+2025-09-26 08:23:29,665 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:29,665 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh to ingest queue
+2025-09-26 08:23:29,665 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl to ingest queue
+2025-09-26 08:23:29,666 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh to ingest queue
+2025-09-26 08:23:29,666 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl to ingest queue
+2025-09-26 08:23:29,667 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh to ingest queue
+2025-09-26 08:23:29,667 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl to ingest queue
+2025-09-26 08:23:29,668 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh to ingest queue
+2025-09-26 08:23:29,668 - Knowledge - INFO - adding /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md to ingest queue
+2025-09-26 08:23:29,670 - Knowledge - INFO - worker kw6 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh from ingest queue
+2025-09-26 08:23:29,671 - Knowledge - INFO - Thread kw6 - File ce_createDb.sh - Remaining files in queue: 7
+2025-09-26 08:23:29,671 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:29,671 - Knowledge - INFO - worker kw4 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl from ingest queue
+2025-09-26 08:23:29,671 - Knowledge - INFO - Thread kw4 - File 03_mvFiles.pl - Remaining files in queue: 6
+2025-09-26 08:23:29,672 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:29,672 - Knowledge - INFO - worker kw5 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh from ingest queue
+2025-09-26 08:23:29,672 - Knowledge - INFO - Thread kw5 - File ce_mvFile.sh - Remaining files in queue: 5
+2025-09-26 08:23:29,672 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:29,673 - Knowledge - INFO - worker kw9 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl from ingest queue
+2025-09-26 08:23:29,673 - Knowledge - INFO - Thread kw9 - File 01_createDb.pl - Remaining files in queue: 4
+2025-09-26 08:23:29,673 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:29,729 - Knowledge - INFO - worker kw8 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh from ingest queue
+2025-09-26 08:23:29,729 - Knowledge - INFO - Thread kw8 - File ce_addFile.sh - Remaining files in queue: 3
+2025-09-26 08:23:29,729 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:29,732 - Knowledge - INFO - worker kw7 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl from ingest queue
+2025-09-26 08:23:29,732 - Knowledge - INFO - Thread kw7 - File 02_addFiles.pl - Remaining files in queue: 2
+2025-09-26 08:23:29,732 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:29,733 - Knowledge - INFO - Fast-track processing for simple file: /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:29,733 - Knowledge - INFO - done fast ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:29,734 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:29,734 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:29,734 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:29,734 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/01_createDb.pl
+2025-09-26 08:23:29,739 - Knowledge - INFO - Fast-track processing for simple file: /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:29,739 - Knowledge - INFO - done fast ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:29,739 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:30,155 - Knowledge - INFO - worker kw2 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh from ingest queue
+2025-09-26 08:23:30,156 - Knowledge - INFO - Thread kw2 - File ce_history.sh - Remaining files in queue: 1
+2025-09-26 08:23:30,156 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:30,160 - Knowledge - INFO - worker kw3 pull /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md from ingest queue
+2025-09-26 08:23:30,160 - Knowledge - INFO - Thread kw3 - File README.md - Remaining files in queue: 0
+2025-09-26 08:23:30,160 - Knowledge - INFO - start ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:30,161 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:30,161 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:30,162 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/02_addFiles.pl
+2025-09-26 08:23:30,167 - Knowledge - INFO - Fast-track processing for simple file: /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:30,167 - Knowledge - INFO - done fast ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:30,229 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:30,462 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:30,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:30,462 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/README.md
+2025-09-26 08:23:34,553 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:34,553 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:34,630 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:34,630 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:34,631 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_history.sh
+2025-09-26 08:23:37,363 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:37,364 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:37,456 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:37,456 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:37,456 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_createDb.sh
+2025-09-26 08:23:39,135 - Knowledge - INFO - persist search terms embedding for scripts/ce_createDb.sh
+2025-09-26 08:23:40,535 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:40,535 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:40,633 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:40,635 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:40,756 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:40,757 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:40,757 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_mvFile.sh
+2025-09-26 08:23:40,761 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:40,761 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:40,761 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addFile.sh
+2025-09-26 08:23:41,064 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:41,064 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:41,664 - Knowledge - INFO - done ingest for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:41,664 - Knowledge - INFO - process ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:42,041 - Knowledge - INFO - persist search terms embedding for scripts/ce_addFile.sh
+2025-09-26 08:23:42,461 - Knowledge - INFO - persist search terms embedding for scripts/ce_mvFile.sh
+2025-09-26 08:23:42,462 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:42,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:42,462 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/t/03_mvFiles.pl
+2025-09-26 08:23:42,463 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/file-tracker-18466.git:kavia-master
+2025-09-26 08:23:42,463 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0148578310>
+2025-09-26 08:23:42,463 - Knowledge - INFO - persist ingested knowledge for /app/data/T0002/18466/b1067xv/file-tracker-18466/scripts/ce_addDir.sh
+2025-09-26 08:23:42,871 - Knowledge - INFO - persist search terms embedding for t/03_mvFiles.pl
+2025-09-26 08:23:43,330 - Knowledge - INFO - persist search terms embedding for scripts/ce_addDir.sh
+2025-09-26 08:23:43,333 - Knowledge - INFO - Knowledge creation complete
+2025-09-26 08:23:43,334 - Knowledge - INFO - Updating org costs, total cost: 0.0013346
+2025-09-26 08:23:44,662 - Knowledge - INFO - Saving knowledge to Redis...
+2025-09-26 08:23:44,671 - Knowledge - INFO - Knowledge saved to Redis successfully
