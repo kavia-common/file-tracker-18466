@@ -1,0 +1,10 @@
+This repository is startable by multiple detector types:
+- Procfile: provides 'web' and 'start' processes -> 'bash start.sh'
+- Some platforms look for a 'start' process (without Procfile Web); this repo now has both.
+- start.sh is executable, has a proper shebang, and will:
+  * run a Node or Python entry if present
+  * otherwise start a static help server on PORT (default 8000) if Python exists
+  * otherwise print CLI usage
+
+If your platform ignores Procfile, configure the start command explicitly:
+  bash start.sh

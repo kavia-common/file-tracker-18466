@@ -1,0 +1,3 @@
+# Normalize line endings to LF for shell scripts and Procfile
+*.sh text eol=lf
+Procfile text eol=lf
