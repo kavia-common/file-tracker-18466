@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Start script for file-tracker-18466
-# This script attempts to start the service in a consistent way across environments
-# by detecting common runtimes (Node.js or Python). If neither is available,
-# it will print usage guidance for the shell tools that ship with this repo.
+# Ensures cross-environment start behavior with Procfile and Node-based detection.
+# Notes:
+# - Keep LF line endings for compatibility with various runners.
+# - Avoid interactive prompts.
 
 set -euo pipefail
 
@@ -162,6 +163,7 @@ main() {
   # Fallback: run a simple static help server if Python is available
   if command -v python3 >/dev/null 2>&1 || command -v python >/dev/null 2>&1; then
     start_python_help_server
+    echo "Help server exited."
     exit 0
   fi
 

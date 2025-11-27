@@ -11,11 +11,15 @@ Copy the files to your local drive and set your `PATH` to the scripts folder
 A universal start script is provided to make the container runnable in preview systems and locally.
 
 - Start via start.sh:
-  bash start.sh
+  bash ./start.sh
 
 - Start via Procfile-compatible runners:
   The repository includes a Procfile with:
-    web: bash start.sh
+    web: bash ./start.sh
+
+- Start via Node-based detectors:
+  package.json provides:
+    "start": "bash ./start.sh"
 
 Behavior:
 - If a Node.js app is detected (package.json or common Node entry files), it will run it (npm start or node <entry>).

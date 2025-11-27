@@ -1,0 +1,9 @@
+{
+  "name": "file-tracker-18466",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Minimal package.json to satisfy Node-based platform detectors; delegates to bash ./start.sh",
+  "scripts": {
+    "start": "bash ./start.sh"
+  }
+}
