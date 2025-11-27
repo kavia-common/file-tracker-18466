@@ -135,7 +135,7 @@ main() {
     if command -v npm >/dev/null 2>&1; then
       echo "Detected Node.js project. Running: npm start"
       exec npm start
-    elif command -v node >/dev/null 2>&1 ]; then
+    elif command -v node >/dev/null 2>&1; then
       # Try common entry points
       for entry in server.js app.js index.js; do
         if [ -f "${SCRIPT_DIR}/${entry}" ]; then
